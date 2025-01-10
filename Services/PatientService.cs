@@ -15,7 +15,11 @@ namespace EmotionCareServer.Services
 
         public async Task<List<Patient>> GetAllAsync()
         {
-            return await _context.Patients.ToListAsync();
+            var sqlQuery = "SELECT * FROM public.\"Patients\"";
+            var patients = await _context.Patients
+                .FromSqlRaw(sqlQuery)
+                .ToListAsync();
+            return patients;
         }
 
         public async Task<Patient?> GetByIdAsync(int id)

@@ -16,6 +16,9 @@ public class AppDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
 
+        modelBuilder.Entity<Psychologist>()
+            .ToTable("Psychologists", "public");
+
         modelBuilder.Entity<Patient>()
             .HasOne<Psychologist>()
             .WithMany()
@@ -117,7 +120,8 @@ public class AppDbContext : DbContext
                   OrganizationListId = 1
               }
           );
-
         base.OnModelCreating(modelBuilder);
+
+        modelBuilder.HasDefaultSchema("public");
     }
 }

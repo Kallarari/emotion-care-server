@@ -16,6 +16,7 @@ namespace EmotionCareServer.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
+                .HasDefaultSchema("public")
                 .HasAnnotation("ProductVersion", "9.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
@@ -48,7 +49,7 @@ namespace EmotionCareServer.Migrations
 
                     b.HasIndex("PsychologistId");
 
-                    b.ToTable("ConsultationSummaries");
+                    b.ToTable("ConsultationSummaries", "public");
                 });
 
             modelBuilder.Entity("EmotionCareServer.Models.DiaryPage", b =>
@@ -87,7 +88,7 @@ namespace EmotionCareServer.Migrations
 
                     b.HasIndex("PsychologistId");
 
-                    b.ToTable("DiaryPages");
+                    b.ToTable("DiaryPages", "public");
                 });
 
             modelBuilder.Entity("EmotionCareServer.Models.Indication", b =>
@@ -122,7 +123,7 @@ namespace EmotionCareServer.Migrations
 
                     b.HasIndex("PsychologistId");
 
-                    b.ToTable("Indications");
+                    b.ToTable("Indications", "public");
                 });
 
             modelBuilder.Entity("EmotionCareServer.Models.Notification", b =>
@@ -169,7 +170,7 @@ namespace EmotionCareServer.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Notifications");
+                    b.ToTable("Notifications", "public");
                 });
 
             modelBuilder.Entity("EmotionCareServer.Models.Patient", b =>
@@ -210,7 +211,7 @@ namespace EmotionCareServer.Migrations
 
                     b.HasIndex("PsychologistId");
 
-                    b.ToTable("Patients");
+                    b.ToTable("Patients", "public");
 
                     b.HasData(
                         new
@@ -281,7 +282,7 @@ namespace EmotionCareServer.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Psychologists");
+                    b.ToTable("Psychologists", "public");
 
                     b.HasData(
                         new

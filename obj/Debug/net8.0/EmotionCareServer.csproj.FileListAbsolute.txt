@@ -145,3 +145,10 @@ C:\Users\Minosso\Documents\projetos\EmotionCare\back-end\EmotionCareServer\Emoti
 C:\Users\Minosso\Documents\projetos\EmotionCare\back-end\EmotionCareServer\EmotionCareServer\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Minosso\Documents\projetos\EmotionCare\back-end\EmotionCareServer\EmotionCareServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Minosso\Documents\projetos\EmotionCare\back-end\EmotionCareServer\EmotionCareServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Minosso\Documents\projetos\EmotionCare\back-end\EmotionCareServer\EmotionCareServer\obj\Debug\net8.0\EmotionCareServer.sourcelink.json
+C:\Users\Minosso\Documents\projetos\EmotionCare\back-end\EmotionCareServer\EmotionCareServer\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Minosso\Documents\projetos\EmotionCare\back-end\EmotionCareServer\EmotionCareServer\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Minosso\Documents\projetos\EmotionCare\back-end\EmotionCareServer\EmotionCareServer\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Minosso\Documents\projetos\EmotionCare\back-end\EmotionCareServer\EmotionCareServer\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Minosso\Documents\projetos\EmotionCare\back-end\EmotionCareServer\EmotionCareServer\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Minosso\Documents\projetos\EmotionCare\back-end\EmotionCareServer\EmotionCareServer\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll

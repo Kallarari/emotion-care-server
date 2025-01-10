@@ -1,8 +1,24 @@
 [
   {
     "ContainingType": "EmotionCareServer.Controllers.AuthController",
-    "Method": "Login",
-    "RelativePath": "api/Auth/login",
+    "Method": "LoginPatients",
+    "RelativePath": "api/Auth/loginPatients",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmotionCareServer.Models.ILoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmotionCareServer.Controllers.AuthController",
+    "Method": "LoginPsychologist",
+    "RelativePath": "api/Auth/loginPsychologist",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
